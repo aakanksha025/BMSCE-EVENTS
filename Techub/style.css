@@ -1,0 +1,204 @@
+/**---------SETUP---------**/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+html {
+    background-image: url('15288a44bf9ec8e4a4830dae0d72fb70.jpg');
+    font-weight: 300;
+    font-size: 20px;
+    font-family: 'Arial';
+    text-rendering: optimizeLegibility;
+}
+
+.image-container {
+    background-image: url("img_nature.jpg"); /* The image used - important! */
+    background-size: cover;
+    backface-visibility: hidden;
+    position: relative; /* Needed to position the cutout text in the middle of the image */
+    height: 50px; /* Some height */
+  }
+  
+  .text {
+    background-color: black;
+    color: white;
+    font-size: 700%; /* Responsive font size */
+    font-family: 'Nunito', sans-serif;
+    margin: 0 auto; /* Center the text container */
+    padding: 5px;
+    width: 50%;
+    text-align: center; /* Center text */
+    position: absolute; /* Position text */
+    top: 50%; /* Position text in the middle */
+    left: 50%; /* Position text in the middle */
+    transform: translate(-50%, -50%); /* Position text in the middle */
+    mix-blend-mode: multiply; /* This makes the cutout text possible */
+    opacity: 0.85;
+  }
+
+
+header {
+    color: #111;
+    height: 180px;
+}   
+
+.row1 {
+    max-width: fill;
+    background-color: black;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 85%;
+}
+
+.trail
+{
+    color: black;
+}
+h1 {
+    margin-top: -200px;
+    font-size: 700%;
+    text-align: center;
+    color :  white;
+    font-family: 'Langar', cursive;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: black;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 145%;
+}
+
+/**---------HEADER---------**/ 
+.navigation {
+    list-style: none;
+    float: right;
+}
+
+.navigation li {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav {
+    background-color:black;
+}
+
+button 
+{
+    background-color: #80bdb9;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+button:hover 
+{
+    
+    background-color: #213e3b;
+}
+
+
+/**---------CONTENT GRID---------**/
+.container {
+    margin-top: 175px;
+    margin-left: 100px;
+    position: relative;
+width: 1100px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+padding: 30px;
+;
+}
+
+.container .card {
+    margin: 0;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 270px;
+    height: 200px;
+    background:    #41aea9;
+    opacity: 0.85;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: inline-block;
+    flex-direction: column;
+    transition: 0.3s ease-in-out;
+    animation: tothetop 3s;
+}
+
+.container .card:hover
+{
+height: 420px;
+
+}
+.container .card .imgBx
+{
+position: relative;
+
+top: -60px;
+left: 20px;
+align-items: center;
+
+}
+
+.container .card .imgBx img
+{
+max-width: 100%;
+border-radius: 4px;
+width: 200px;
+height: 200px;
+z-index: 1;
+animation: image 3s;
+align-items: center;
+
+}
+
+.container .card .content
+{
+position: relative;
+margin-top:	-140px;
+padding: 10px 15 px;
+text-align: center;
+color: #111;
+visibility: hidden;
+opacity: 0;
+transition: 0.3s ease-in-out;
+}
+
+.container .card:hover .content
+{
+visibility: visible;
+opacity: 1;
+margin-top: -40px;
+transition-delay: 0.3s;
+}
+
