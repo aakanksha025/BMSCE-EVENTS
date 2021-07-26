@@ -1,0 +1,136 @@
+* {
+  font-family: sans-serif; /* Change your font family */
+}
+body {
+background-image: url("tablesbg.jpg");
+content: centeralised;
+}
+.content {
+  max-width: 500px;
+  margin: auto;
+}
+h1 { text-align: center;
+  color: rgb(30, 114, 79);
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+.content-table tr{
+  color: rgb(253, 253, 253);
+}
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+.content-submit {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-submit thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+.content-submit tr{
+  color: rgb(253, 253, 253);
+}
+.content-submit th,
+.content-submit td {
+  padding: 12px 15px;
+}
+
+.content-submit tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.top .btn{
+  line-height: 12px;
+  width: 150px;
+  top: 0;
+  right: 75px;
+  margin-top: 1px;
+  margin-right: 2px;
+  position: absolute;
+}
+
+button 
+{
+  background-color: #80bdb9;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+button:hover 
+{
+    background-color: #072324;
+}
+
+.wrapper{
+  font-size: xx-large;
+  top: 20px;
+  right: 75%;
+  margin-top: 1px;
+  margin-right: 2px;
+  position: absolute;
+  padding: 30px;
+  margin: 7px;
+  background-color: rgba(8, 68, 48, 0.5);
+  border: #f3f3f3;
+  text-align: center;
+  width: 220px;
+  height: 250px;
+  color: #009879;
+  font-style: italic;
+}
+
+.input{
+  font-size: medium;
+  padding: 10px;
+  text-align: center;
+}

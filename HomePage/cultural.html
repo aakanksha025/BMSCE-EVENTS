@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Cultural PAGE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#333333">
+  <meta name="msapplication-navbutton-color" content="#333333">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#333333">
+  <link rel="stylesheet" href="./navbar.css">
+  <link rel="stylesheet" href="./static/style.css" />
+  <link rel="stylesheet" href="./style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Oswald&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../static/font-awesome/font-awesome.min.css">
+
+</head>
+
+<body onhashchange="$.hashChanger()">
+  <header>
+    <nav>
+      <div class="logo">
+      </div>
+      <input type="checkbox" id="click">
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a class="active" href="./cultural.html">Cultural</a></li>
+        <li><a href="../Techub/Tech_Hub_HomePage.html">Tech
+            Hub</a></li>
+        <li><a href="../CodersArena/Coder_Homepage/coder_Arena.html">Coders
+            Arena</a></li>
+        <li><a href="../sports/sportshomepage.html"> Sports</a></li>
+        <li><a href="http://localhost/project/ProfilePage/profilepage.php">My Profile</a></li>
+      </ul>
+
+    </nav>
+  </header>
+  <main>
+    <div class="tabs">
+      <input type="radio" name="tab" id="tab1" checked="checked">
+      <label for="tab1">Cultural</label>
+      <div class="tab-content-wrapper">
+        <div id="tab-content-1" class="tab-content">
+          <div class="container">
+            <div class="cards">
+              <div class="card-item">
+                <div class="card-image" style="background-image:url('./logos/dance.png')">
+                </div>
+                <div class="card-info">
+                  <h2 class="card-title">Dance Club</h2>
+                  <a class="card-more modal__trigger" data-modal="#dance">Know More &nbsp <i
+                      class="fa fa-angle-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="cards">
+              <div class="card-item">
+                <div class="card-image" style="background-image:url('./logos/inksanity.jpeg')">
+                </div>
+                <div class="card-info">
+                  <h2 class="card-title">Inksanity Club</h2>
+                  <a class="card-more modal__trigger" data-modal="#debating">Know More &nbsp <i
+                      class="fa fa-angle-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="cards">
+              <div class="card-item">
+                <div class="card-image" style="background-image:url('./logos/dramatics.jpg')">
+                </div>
+                <div class="card-info">
+                  <h2 class="card-title">Dramatics Club</h2>
+                  <a class="card-more modal__trigger" data-modal="#drama">Know More &nbsp <i
+                      class="fa fa-angle-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="cards">
+              <div class="card-item">
+                <div class="card-image" style="background-image:url('./logos/FAC.jpeg')">
+                </div>
+                <div class="card-info">
+                  <h2 class="card-title">Fine Arts Club</h2>
+                  <a class="card-more modal__trigger" data-modal="#art">Know More &nbsp <i
+                      class="fa fa-angle-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="cards">
+              <div class="card-item">
+                <div class="card-image" style="background-image:url('./logos/music.jpeg')">
+                </div>
+                <div class="card-info">
+                  <h2 class="card-title">Music Club</h2>
+                  <a class="card-more modal__trigger" data-modal="#music">Know More &nbsp <i
+                      class="fa fa-angle-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="cards">
+              <div class="card-item">
+                <div class="card-image" style="background-image:url('./logos/photography.jpeg')">
+                </div>
+                <div class="card-info">
+                  <h2 class="card-title">Photography Clubs</h2>
+                  <a class="card-more modal__trigger" data-modal="#photo">Know More &nbsp <i
+                      class="fa fa-angle-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="cards">
+              <div class="card-item">
+                <div class="card-image" style="background-image:url('./logos/quiz.jpg')">
+                </div>
+                <div class="card-info">
+                  <h2 class="card-title">Quizzing Club</h2>
+                  <a class="card-more modal__trigger" data-modal="#quiz">Know More &nbsp <i
+                      class="fa fa-angle-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="cards">
+              <div class="card-item">
+                <div class="card-image" style="background-image:url('./logos/utsav.jpeg')">
+                </div>
+                <div class="card-info">
+                  <h2 class="card-title">UTSAV</h2>
+                  <a class="card-more modal__trigger" data-modal="#utsav">Know More &nbsp <i
+                      class="fa fa-angle-right"></i></a>
+                </div>
+              </div>
+            </div>
+            </div>
+            </div>
+
+            <!-- Modal -->
+            <div id="dance" class="modal modal--align-top modal__bg" role="dialog" aria-hidden="true">
+              <div class="modal__dialog">
+                <div class="modal__content">
+                  <h1>Dance Club</h1>
+                  <!-- <p>Club 1 is great!</p>-->
+                  <p>
+                  <h3>UPCOMING </h3>
+                  1) Group Western Dance Competition in MSRIT
+                  <hr size="1" color="royalblue">
+                  2) Solo dance audition.
+                  <hr size="1" color="royalblue">
+                  3) Eastern Group Dance.
+                  <hr size="1" color="royalblue">
+                  4) Contemporary workshop
+                  </p>
+                  <div class='contact'>
+
+                    <a class="web" href="file:///Users/bhavyasingh/Desktop/project/dance.html">More Info</a>
+                  </div>
+                  <!-- modal close button (w/o the symbol) -->
+                  <a href="javascript:void(0);" class="modal__close modal-close">&times</a>
+                </div>
+              </div>
+            </div>
+            <div id="debating" class="modal modal--align-top modal__bg" role="dialog" aria-hidden="true">
+              <div class="modal__dialog">
+                <div class="modal__content">
+                  <h1>Inksanity</h1>
+                  <!--<p>Club 1 is great!</p>-->
+                  <p>
+                  <h3>Upcoming </h3>
+                  1) Debate Melange
+                  <hr size="1" color="red">
+                  2)Poem writing Competition
+                  <hr size="1" color="red">
+                  3)Parliamentry Debate on CAA/NRC.
+                  <hr size="1" color="red">
+                  4)Public Speaking Workshop
+
+                  </p>
+                  <div class='contact'>
+                    <a class="web" href="inksanity.html" target="_blank">More
+                      Info</a>
+                  </div>
+                  <!-- modal close button (w/o the symbol) -->
+                  <a href="javascript:void(0);" class="modal__close modal-close">&times</a>
+                </div>
+              </div>
+            </div>
+            <div id="drama" class="modal modal--align-top modal__bg" role="dialog" aria-hidden="true">
+              <div class="modal__dialog">
+                <div class="modal__content">
+                  <h1>Dramatics Club</h1>
+                  <!--<p>Club 1 is great!</p>-->
+                  <p> 1)Street play on women's safety.
+                    <hr size="1" color="yellow">
+                    2)Shakespeare's adaptation of MIDSUMMER NIGHT'S DREAM.
+                    <hr size="1" color="yellow">
+                    3)Improv rounds
+                    <hr size="1" color="yellow">
+                    4)Expression workshop.
+                  </p>
+                  <div class='contact'>
+
+                    <a class="web" href="dramatics.html" target="_blank">More
+                      Info</a>
+                  </div>
+                  <!-- modal close button (w/o the symbol) -->
+                  <a href="javascript:void(0);" class="modal__close modal-close">&times</a>
+                </div>
+              </div>
+            </div>
+            <div id="art" class="modal modal--align-top modal__bg" role="dialog" aria-hidden="true">
+              <div class="modal__dialog">
+                <div class="modal__content">
+                  <h1>Fine Arts and Crafts Club</h1>
+                  <!--<p>Club 1 is great!</p>-->
+                  <p>1)Paint the puzzle.
+                    <hr size="1" color="Orchid">
+                    2)Don't brush.
+                    <hr size="1" color="Orchid">
+                    3)Manga Drawing Competition.
+                    <hr size="1" color="Orchid">
+                    4)Sketch Workshop.
+                  </p>
+                  <div class='contact'>
+
+                    <a class="web" href="fine%20arts.html"
+                      target="_blank">More Info</a>
+                  </div>
+                  <!-- modal close button (w/o the symbol) -->
+                  <a href="javascript:void(0);" class="modal__close modal-close">&times</a>
+                </div>
+              </div>
+            </div>
+
+
+            <div id="music" class="modal modal--align-top modal__bg" role="dialog" aria-hidden="true">
+              <div class="modal__dialog">
+                <div class="modal__content">
+                  <h1>Music Club</h1>
+                  <!--<p>Club 1 is great!</p>-->
+                  <p> 1)Sargam.
+                    <hr size="1" color="OrangeRed">
+                    2)Vocal Solo
+                    <hr size="1" color="OrangeRed">
+                    3)Battle of bands
+                    <hr size="1" color="OrangeRed">
+                    4)Riyaaz .
+                  </p>
+                  <div class='contact'>
+                    <a class="web" href="music.html" target="_blank">More
+                      Info</a>
+                  </div>
+                  <a href="javascript:void(0);" class="modal__close modal-close">&times</a>
+                </div>
+              </div>
+            </div>
+            <div id="photo" class="modal modal--align-top modal__bg" role="dialog" aria-hidden="true">
+              <div class="modal__dialog">
+                <div class="modal__content">
+                  <h1>Photography Club</h1>
+                  <!--<p>Club 1 is great!</p>-->
+                  <p> 1)Panaroma
+                    <hr size="1" color="cyan">
+                    2)Display your work in RVCE.
+                    <hr size="1" color="cyan">
+                    3)Portrait workshop.
+                    <hr size="1" color="cyan">
+                    4)Photostage.
+                  </p>
+                  <div class='contact'>
+
+                    <a class="web" href="photography.html"
+                      target="_blank">More Info</a>
+                  </div>
+                  <a href="javascript:void(0);" class="modal__close modal-close">&times</a>
+                </div>
+              </div>
+            </div>
+
+            <div id="quiz" class="modal modal--align-top modal__bg" role="dialog" aria-hidden="true">
+              <div class="modal__dialog">
+                <div class="modal__content">
+                  <h1>Quizzing Club</h1>
+                  <p>1)General Quiz
+                    <hr size="1" color="LimeGreen">
+                    2)Fandom Quiz
+                    <hr size="1" color="LimeGreen">
+                    3)Anime Quiz
+                    <hr size="1" color="LimeGreen">
+                    4)Become a quizzer.
+                  </p>
+                  <div class='contact'>
+
+                    <a class="web" href="quiz.html" target="_blank">More
+                      Info</a>
+                  </div>
+                  <a href="javascript:void(0);" class="modal__close modal-close">&times</a>
+                </div>
+              </div>
+            </div>
+            <div id="utsav" class="modal modal--align-top modal__bg" role="dialog" aria-hidden="true">
+              <div class="modal__dialog">
+                <div class="modal__content">
+                  <h1>UTSAV</h1>
+                  <p>1)Whiplash
+                    <hr size="1" color="Indigo">
+                    2)Turtle Jam
+                    <hr size="1" color="Indigo">
+                    3)Fashion show
+                    <hr size="1" color="Indigo">
+                    4)DJ Night.
+                  </p>
+                  <div class='contact'>
+                    <a class="web" href="utsav.html" target="_blank">Visit
+                      Website</a>
+                  </div>
+                  <a href="javascript:void(0);" class="modal__close modal-close">&times</a>
+                </div>
+              </div>
+            </div>
+  </main>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  <script src='./static/script.js'></script>
+  
+
+</html>
