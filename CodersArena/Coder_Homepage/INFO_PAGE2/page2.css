@@ -1,0 +1,92 @@
+body{
+  background-color: #a3d8f4;
+  text-align: center;
+  margin-top: 30px;
+}
+
+h1{
+  color: #7579e7;
+  font-size: 100px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+h2 {
+  color: #7579e7;
+  font-size: 70px;
+}
+
+h3{
+  margin-top: 150px;
+  color: #008891;
+  font-size: 40px;
+}
+
+hr{
+  text-align: center;
+  border: none;
+  border-style: none;
+  border-top-style:dotted;
+  width: 15%;
+  color: #fdfdfd;
+}
+
+
+.html-5{
+  margin-left: 32.5%;
+  float: left;
+  width: 10em;
+}
+
+.css-image{
+  margin-right: 33%;
+  float: right;
+  width: 9em;
+}
+
+.jsImg{
+  margin-left: 33%;
+  float: left;
+  width: 10em;
+}
+
+.about-img{
+  width: 15rem;
+}
+
+.detail-sec{
+  font-size: 1.5rem;
+}
+
+p{
+  width: 30%;
+  margin: auto;
+  line-height: 2;
+}
+
+ul{
+  margin: auto 40%;
+  font-size: 1.3rem;
+  line-height: 3;
+}
+
+.myButton {
+	background-color:#5a7db8;
+	border-radius:22px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:12px;
+	font-weight:bold;
+	padding:15px 28px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #283966;
+}
+.myButton:hover {
+	background-color:#ff414d;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}

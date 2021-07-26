@@ -1,0 +1,63 @@
+body{
+  background-image: url(page_back.jpg);
+  text-align: center;
+}
+
+h1{
+  font-family: 'Acme', sans-serif;
+  font-size: 80px;
+  color: #625261;
+}
+
+h2 {
+  font-size: 60px;
+  color: #625261;
+}
+
+img {
+  width: 500px;
+}
+
+p {
+  margin: auto;
+  font-weight: 900;
+  font-family: 'Inconsolata', monospace;
+  font-size: 30px;
+  width: 50%;
+  line-height: 2;
+  color: #556052;
+}
+
+ul{
+  line-height: 2;
+  margin: auto 8%;
+  font-size: 40px;
+  width: 80%;
+}
+
+
+em{
+  font-size: 35px;
+}
+
+.myButton {
+	background-color:#70af85;
+	border-radius:22px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:12px;
+	font-weight:bold;
+	padding:15px 28px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #283966;
+}
+.myButton:hover {
+	background-color:#c6ebc9;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
